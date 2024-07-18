@@ -11,6 +11,14 @@
 		9E15007C2C4978A0002AE605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E15007B2C4978A0002AE605 /* ContentView.swift */; };
 		9E15007E2C4978A1002AE605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E15007D2C4978A1002AE605 /* Assets.xcassets */; };
 		9E1500812C4978A1002AE605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1500802C4978A1002AE605 /* Preview Assets.xcassets */; };
+		9E1500882C497CC4002AE605 /* PasswordManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1500872C497CC4002AE605 /* PasswordManagerView.swift */; };
+		9E15008A2C497CD8002AE605 /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1500892C497CD8002AE605 /* AddAccountView.swift */; };
+		9E15008C2C497CEB002AE605 /* ManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E15008B2C497CEB002AE605 /* ManagerViewModel.swift */; };
+		9E15008E2C497D01002AE605 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E15008D2C497D01002AE605 /* AccountDetailView.swift */; };
+		9E1500912C497DC4002AE605 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1500902C497DC4002AE605 /* CommonButton.swift */; };
+		9E1500952C497DE2002AE605 /* PinAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1500942C497DE2002AE605 /* PinAuthenticationView.swift */; };
+		9E1500972C497DF2002AE605 /* PasswordStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1500962C497DF2002AE605 /* PasswordStrengthView.swift */; };
+		9E1500992C497ECB002AE605 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1500982C497ECB002AE605 /* AccountsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		9E15007B2C4978A0002AE605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E15007D2C4978A1002AE605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1500802C4978A1002AE605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E1500872C497CC4002AE605 /* PasswordManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerView.swift; sourceTree = "<group>"; };
+		9E1500892C497CD8002AE605 /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+		9E15008B2C497CEB002AE605 /* ManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewModel.swift; sourceTree = "<group>"; };
+		9E15008D2C497D01002AE605 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		9E1500902C497DC4002AE605 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		9E1500942C497DE2002AE605 /* PinAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAuthenticationView.swift; sourceTree = "<group>"; };
+		9E1500962C497DF2002AE605 /* PasswordStrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrengthView.swift; sourceTree = "<group>"; };
+		9E1500982C497ECB002AE605 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +78,25 @@
 		9E15007F2C4978A1002AE605 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				9E15008F2C497D87002AE605 /* ReusableComponents */,
 				9E1500802C4978A1002AE605 /* Preview Assets.xcassets */,
+				9E1500872C497CC4002AE605 /* PasswordManagerView.swift */,
+				9E1500892C497CD8002AE605 /* AddAccountView.swift */,
+				9E15008B2C497CEB002AE605 /* ManagerViewModel.swift */,
+				9E15008D2C497D01002AE605 /* AccountDetailView.swift */,
+				9E1500982C497ECB002AE605 /* AccountsView.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E15008F2C497D87002AE605 /* ReusableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9E1500902C497DC4002AE605 /* CommonButton.swift */,
+				9E1500942C497DE2002AE605 /* PinAuthenticationView.swift */,
+				9E1500962C497DF2002AE605 /* PasswordStrengthView.swift */,
+			);
+			path = ReusableComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1500992C497ECB002AE605 /* AccountsView.swift in Sources */,
+				9E1500952C497DE2002AE605 /* PinAuthenticationView.swift in Sources */,
+				9E1500912C497DC4002AE605 /* CommonButton.swift in Sources */,
+				9E15008A2C497CD8002AE605 /* AddAccountView.swift in Sources */,
+				9E1500882C497CC4002AE605 /* PasswordManagerView.swift in Sources */,
+				9E15008C2C497CEB002AE605 /* ManagerViewModel.swift in Sources */,
+				9E15008E2C497D01002AE605 /* AccountDetailView.swift in Sources */,
 				9E15007C2C4978A0002AE605 /* ContentView.swift in Sources */,
 				9E15007A2C4978A0002AE605 /* PasswordManagerAppApp.swift in Sources */,
+				9E1500972C497DF2002AE605 /* PasswordStrengthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
